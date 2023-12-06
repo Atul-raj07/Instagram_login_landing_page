@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+#bg{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right bottom,blue 2%,rgb(184, 44, 68),rgb(230, 137, 50));
+}
+#card{
+    height: 500px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.397);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+
+}
+img{
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    
+ 
+}
+h1{
+
+    font-family: Lemon Jelly Personal Use;
+    font-size: 70px;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    margin-top: 0px;
+    
+
+}
+#usr{
+    margin-top: 10px;
+    color: rgb(251, 251, 251);
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+}
+#pswd{
+    margin-top: 20px;
+    color: rgb(251, 251, 251);
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+a{
+    padding-left: 120px;
+    text-decoration: none;
+    font-size: 15px;
+    color:royalblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+button{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    background-color: rgb(40, 40, 235);
+    color: white;
+}
+hr{
+    margin-top: 50px;
+    width: 100%;
+    color: black;
+    background-color: black;
+    
+}
